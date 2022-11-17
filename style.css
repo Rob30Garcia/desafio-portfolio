@@ -27,6 +27,10 @@
 body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
+  padding: 40px;
+
+  display: flex;
+  flex-direction: row;
 }
 
 body, input, textarea, select, textarea {
@@ -40,4 +44,52 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+}
+/* 
+  *custom individual
+*/
+
+.sidebar {
+  width: 30%;
+
+  display: flex;
+  justify-content:center;
+}
+
+main {
+  width: 70%;
+}
+
+/* Profile */
+
+.profile {
+  width: 398px;
+  height: 292px;
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img {
+  width: 128px;
+  height: 128px;
+
+  border-radius: 100%;
+  outline: 1px solid #00FF00;
+}
+
+.profile .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.profile .function {
+  font-size: 0.875rem;
+  font-weight: lighter;
 }
