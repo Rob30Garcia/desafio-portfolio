@@ -265,3 +265,26 @@ main {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
+.sidebar .technology .wrapper-tech {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5px;
+}
+
+.sidebar .technology .wrapper-tech .items {
+  width: 86px;
+  height: 24px;
+  background: var(--bg-techs);
+  border-radius: 30px;
+  margin-top: 15px;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
